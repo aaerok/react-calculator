@@ -1,1 +1,0 @@
-Calculator app made using React.
