@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
+import './styles.css';
 /* eslint no-eval: 0 */
 
-class calc extends Component {
+class Calc extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -114,4 +114,4 @@ class calc extends Component {
   }
 }
 
-export default App;
+export default Calc;
