@@ -1,0 +1,92 @@
+table {
+  margin-left: 300px;
+  width: 262px;
+  border: 1px solid rgb(26, 25, 25);
+  background-color: black;
+  border-radius: 3%;
+}
+
+td {
+  font-family: helvetica;
+  float: left;
+  width: 60px;
+  height: 60px;
+  font-size: 35px;
+
+}
+
+.clear {
+  width: 19px;
+  font-size: 40px;
+  color: white;
+}
+
+.clearbutton {
+  font-family: Helvetica;
+  width: 190px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 50px 50px;
+  padding: 0;
+  background: none;
+  font-size: 20px;
+  background-color: rgb(54, 54, 54);
+}
+
+.symbol {
+  float: right;
+  background-color: rgb(238, 134, 37);
+  color: white;
+}
+
+.calc {
+  font-family: Helvetica;
+  float: right;
+  width: 256px;
+  text-align: right;
+  color: white;
+  font-size: 250%;
+  line-height: 80px;
+  font-weight: 200;
+  background-color: rgb(0, 0, 0);
+}
+
+button:active {background-color: rgb(185, 184, 184)
+}
+
+button:focus {outline:0;}
+
+button {
+  transition:  all 0.3s ease-out;
+  font-family: Helvetica;
+  float: left;
+  color: white;
+  border: 1px solid black;
+  border-radius: 80%;
+  margin: 1px;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: 300;
+  background-color: rgb(54, 54, 54);
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.zero {
+  font-family: Helvetica;
+  float: left;
+  text-indent: -60px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50px 50px;
+  margin: 1px;
+  padding: 5px;
+  width: 120px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: 300;
+  background-color: rgb(54, 54, 54);
+}
