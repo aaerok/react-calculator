@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 /* eslint no-eval: 0 */
 
-class App extends Component {
+class calc extends Component {
   constructor(props) {
     super(props);
     this.state = {
