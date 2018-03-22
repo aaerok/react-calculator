@@ -93,24 +93,20 @@ class Calc extends Component {
           this.setState({input: this.state.input + value, 
             display: this.state.inputWithoutSymbols, isSymbol: true,
             isDecimal: false, inputWithoutSymbols: ''});  
-            console.log("a");
         } else {
           if (this.state.isSymbol) {
             this.setState({input: this.state.input + value, 
               inputWithoutSymbols: this.state.inputWithoutSymbols + value, 
               display: value, isSymbol: false});
-              console.log("b");
           } else {
             this.setState({input: this.state.input + value, inputWithoutSymbols: 
               this.state.inputWithoutSymbols + value, display: this.state.inputWithoutSymbols + value, 
               isSymbol: false});
-              console.log("c");
           }
         }
         break;
       }
     }
-    console.log(this.state.input);
   }
 }
 
