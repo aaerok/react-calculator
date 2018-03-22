@@ -102,8 +102,8 @@ class Calc extends Component {
               this.state.inputWithoutSymbols + value, display: this.state.inputWithoutSymbols + value, 
               isSymbol: false});
           }
+          break;
         }
-        break;
       }
     }
   }
