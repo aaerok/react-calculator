@@ -93,8 +93,7 @@ class Calc extends Component {
           this.setState({input: this.state.input + value, 
             display: this.state.inputWithoutSymbols, isSymbol: true,
             isDecimal: false, inputWithoutSymbols: ''});  
-        } else {
-          if (this.state.isSymbol) {
+        } else if (this.state.isSymbol) {
             this.setState({input: this.state.input + value, 
               inputWithoutSymbols: this.state.inputWithoutSymbols + value, 
               display: value, isSymbol: false});
@@ -108,6 +107,5 @@ class Calc extends Component {
       }
     }
   }
-}
 
 export default Calc;
